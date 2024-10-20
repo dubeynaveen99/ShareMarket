@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction</title>
+    <link rel="stylesheet" href="transactionstyle.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Transaction Details</h2>
+        <div class="form-group">
+            <p id="stock-symbol"></p>
+            <p id="stock-price"></p>
+        </div>
+        <div class="form-group">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" placeholder="Enter quantity">
+            <div class="suggestions">
+                <button class="suggestion-btn" data-value="10">10</button>
+                <button class="suggestion-btn" data-value="50">50</button>
+                <button class="suggestion-btn" data-value="100">100</button>
+                <button class="suggestion-btn" data-value="200">200</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="total-price">Total Price:</label>
+            <input type="text" id="total-price" readonly>
+        </div>
+        <button id="confirm-transaction">Confirm Transaction</button>
+        <div id="processingMessage" class="processing-message"></div>
+    </div>
+    <script src="transactionScript.js"></script>
+</body>
+</html>

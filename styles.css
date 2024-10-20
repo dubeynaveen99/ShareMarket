@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    color: red;
+    font-size: 0.9em;
+}
+
+.transaction-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+}
+
+.quantity-selection {
+    margin: 20px 0;
+}
+
+
+
+
+#confirm-transaction {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#confirm-transaction:hover {
+    background-color: #218838;
+}
+
+.suggestions {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adds some space between the buttons */
+    margin-top: 10px;
+}
+
+.suggestion-btn {
+    margin: 0; /* Remove any vertical margin */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.suggestion-btn:hover {
+    background-color: #0056b3;
+}
+
+

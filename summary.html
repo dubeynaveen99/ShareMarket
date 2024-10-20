@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incremented Value</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Transaction Completed</h2>
+        <p>The total amount is:</p>
+        <div class="form-group">
+            <input type="text" id="incrementedValue" readonly>
+        </div>
+        <div>
+            <button id="homepage" onclick="homepage()">Go to Dashboard</button>
+        </div>
+    </div>
+    <script>
+        // Retrieve the incremented value from localStorage and display it
+        const incrementedValue = localStorage.getItem('incrementedValue');
+        document.getElementById('incrementedValue').value = incrementedValue;
+    </script>
+   <script src="script.js"></script>
+</body>
+</html>
