@@ -13,7 +13,7 @@ function register() {
         // Store the username and password in sessionStorage
         sessionStorage.setItem(username, password);
         document.getElementById('registerMessage').innerText = "Registration successful!";
-        window.location.href="login.html";
+        window.location.href="index.html";
     } else {
         document.getElementById('registerMessage').innerText = "Please enter both username and password.";
     }
